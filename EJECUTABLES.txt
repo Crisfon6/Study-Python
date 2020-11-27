@@ -1,0 +1,18 @@
+para hacer ejecutables de python basta con instalar el modulo pyinstaller
+
+luego de instalarlo nos dirijimos a la carpeta donde esta nuestro archivo python
+
+en la consola tecleamos esto creara uno que abrira con consola:
+pyinstaller nombredelarchivopy
+
+el siguiente es para generar un archivo que no se abrira con la consola
+
+py installer --windowed nombredelarchivopy
+
+generar solo un archivo .exe
+
+py installer --windowed --onefile nombredelarchivopy
+
+generar el exe y ponerle un icono
+
+py installer --windowed --onefile --icon=./icon.ico nombredelarchivopy

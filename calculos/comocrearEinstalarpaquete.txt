@@ -1,0 +1,10 @@
+Crear paquete
+1. creamos archivo __init__.py para tomar esa carpeta y su contenido como paquete
+
+crear paquete distrubicion
+1.creamos archivo setup.py
+2. ir a la consola y escribir python setup.py sdist
+
+como isntalarlo
+1.ir al directorio donde este 
+2.ejecutar en la terminal pip3 install nombrepackage
